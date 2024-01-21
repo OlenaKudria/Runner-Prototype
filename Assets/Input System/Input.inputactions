@@ -1,0 +1,40 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "692def5c-2656-4659-a6fc-4b66920fd63f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "6260ade4-68a8-41cd-872f-bcffaa022640",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a548084b-08e8-456a-91ad-014f4b59c825",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "67905600-9b4f-4485-8d19-cc6d72d4bb0a",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
